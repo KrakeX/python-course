@@ -24,3 +24,20 @@ dic = {
 }
 
 print(dic['c2'][1].upper())
+
+other_dic = {
+    1: 'a',
+    2: 'b'
+}
+
+other_dic[3] = 'c'
+
+print(other_dic)
+
+other_dic[2] = 'B'
+
+print(other_dic)
+
+print(other_dic.keys())
+print(other_dic.values())
+print(other_dic.items())
