@@ -18,6 +18,8 @@ como si hirviera
 el color del agua
 """
 
+poema.__len__
+
 print("agua" in poema)
 print("sol" in poema)
 print("sol" not in poema)
